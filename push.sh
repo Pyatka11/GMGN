@@ -3,7 +3,7 @@
 set -e
 cd "$(dirname "$0")"
 
-# Токен: из .env.github или из переменной GITHUB_TOKEN
+
 if [ -f .env.github ]; then
   # shellcheck disable=SC1091
   source .env.github
