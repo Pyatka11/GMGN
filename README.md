@@ -2,15 +2,6 @@
 
 **GMGN** — Base mini app: daily GM, points, airdrop.
 
-## Dev
-
-```bash
-npm install
-npm run dev
-```
-
-## Contract
-
 Deploy `contracts/src/GMGNHub.sol` on Base, then set `HUB_CONTRACT_ADDRESS` in `src/config/contract.ts`.
 
 **GM:** 3 free/day (+10 pts), then 0.0001 ETH (+20 pts)
