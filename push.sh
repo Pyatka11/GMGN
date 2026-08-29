@@ -1,8 +1,7 @@
 #!/bin/bash
 # Стандартный push в GitHub — всегда запускай: ./push.sh
 set -e
-cd "$(dirname "$0")"
-
+cd "$(dirnam
 # Токен: из .env.github или из переменной GITHUB_TOKEN
 if [ -f .env.github ]; then
   # shellcheck disable=SC1091
